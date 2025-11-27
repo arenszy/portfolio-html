@@ -253,6 +253,7 @@ main section h1 {
 
 .gallery {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 50px;
 }
