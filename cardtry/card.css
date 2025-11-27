@@ -1,0 +1,79 @@
+
+body {
+  min-height: 100vh;
+  padding: 20px;
+}
+.container {
+  margin: 0 auto;
+}
+
+
+.subtitle {
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 40px;
+  font-size: 1.1em;
+}
+
+.gallery{
+    display: grid;
+    /** otomatis mengisi kekosongan dengan minimal lebar 200px **/
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    gap: 200px;
+}
+  
+.title {
+    margin-left: 30px;
+}
+
+.card {
+    width: 350px;
+    background-color: rgb(255, 255, 255);
+    height: 550px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.description {
+  font-size: 18px;
+  margin-left: 30px;
+  max-width: 300px;
+}
+
+.image {
+  width: 350px;
+  height: 250px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.tags {
+  font-size: 12px;
+  margin-top: px;
+  font-family: sans-serif;
+  font-weight: bold;
+  background-color: rgba(52, 86, 254, 0.276);
+  padding: 5px;
+  color: rgba(0, 30, 255, 0.838);
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-left: 30px;
+}
+
+.tags2 {
+  font-size: 12px;
+  font-family: sans-serif;
+  font-weight: bold;
+  background-color: rgba(52, 86, 254, 0.276);
+  padding: 5px;
+  color: rgb(0, 30, 255, 0.838);
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.link {
+  text-decoration: none;
+  margin-left: 30px;
+  font-weight: bold;
+}
